@@ -233,7 +233,16 @@ footer p {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 800px) {
+    .caixa-principal {
+        flex-direction: column;
+        background-image: url(./img/img-principal-celular.png);
+        background-color: #000000;
+       
+    }
+
+    
+    
     nav {
         display: none;
     }
