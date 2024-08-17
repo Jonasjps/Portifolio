@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
+    
+}
+
+@media screen and (min-width: 560px) {
+    .caixa-principal {
+        max-width: 1900px;
+        margin: 0 auto;
+        flex-flow: wrap;
+        display: block;
+    }
 }
 .intro {
     display:flex
@@ -259,7 +269,7 @@ footer p {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (min-width: 800px) {
     .caixa-principal {
         flex-direction: column;
         background-image: url(./img/img-principal-celular.png);
@@ -270,4 +280,4 @@ footer p {
     nav {
         display: none;
     }
-}
+} */
