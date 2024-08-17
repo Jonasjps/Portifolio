@@ -4,6 +4,33 @@
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
 }
+.intro {
+    display:flex
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+  }
+  
+  .typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 95%;
+    border-right: 2px solid rgb(255, 255, 255);
+    right: -5px;
+    animation: blink 1s infinite ease;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 
 .caixa-principal {
