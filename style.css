@@ -11,7 +11,9 @@
         max-width: 1900px;
         margin: 0 auto;
         flex-flow: wrap;
-        display: block;
+        /* display: block; */
+        flex-direction: column;
+        background-image:  url(./img/img-principal-celular.png);
     }
 }
 .intro {
