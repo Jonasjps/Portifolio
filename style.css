@@ -5,7 +5,13 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* margin-left: 50px; */
+}
 
 
 
@@ -47,6 +53,9 @@
     background-position: center;
     background-color: #191919;
 }
+.principal-grande {
+
+}
 
 nav {
     display: flex;
@@ -86,17 +95,23 @@ li :hover {
     color: white;
 }
 
-.meu-nome {
-    position: absolute;
-    left: 7%;
-}
-.foto-principal {
-    margin-left: 70%;
+.foto-principal{
+    display: flex;
+    display: inline-block ;
+    position: relative;
+    justify-content: space-between;
+
+    /* left: 7%; */
 }
 
+.meu-nome  {
+    /* margin: 0 auto; */
+    display: inline-block;
+}
+
+
 .texto-principal {
-    margin-bottom: 30%;
-    
+    margin-left: 80px;
 }
 
 h1 {

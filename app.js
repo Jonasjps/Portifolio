@@ -17,7 +17,8 @@ const type = () => {
 
   currentMessage = messages[messageIndex]
   currentCharacters = currentMessage.slice(0, characterIndex++)
-  typing.textContent = currentCharacters
+  typing.innerHTML = currentCharacters
+  console.log(currentCharacters)
 
 //   const shouldChangeMessageToBeTyped =
 //     currentCharacters.length === currentMessage.length
