@@ -23,16 +23,27 @@
             </ul>
         </nav>
 
+        
         <div class="meu-nome" class="intro">
-            <!-- <h1>J</h1> -->
-            <h1 data-js="typing" class="typing"></h1>
-            <!-- <h1 class="typing">Jonas <span>Pessoa</span></h1> -->
-            <h3>Programador Front-End</h3>
+            <div class="foto-principal">
+                <picture>
+                    <source media="(max-width:750px)" srcset="./img/pequeno.png">
+                    <source media="(max-width:1050px)" srcset="./img/medio.png">
+                    <img class="principal-grande" src="./img/grande.png" alt="imagem-flexível">
+                </picture>
+            </div>
+            <div class="texto-principal">
+                <h1 data-js="typing" class="typing"></h1>
+                <h3>Programador Front-End</h3>
+            </div>
         </div>
     </div>
 
     <section id="sobre">
-        <img src="./img/Jonas.png">
+        <picture>
+            <source media="(max-width:750px)" srcset="./img/pequeno-jonas.png">
+            <img src="./img/grande-jonas.png">
+        </picture>
         <div>
             <h2>Sobre mim</h2>
             <p>Olá sou um Programador Front-End, tenho experiência e conhecimento criando aplicações HTML, CSS, JavaScript, React-js e Node.</p>

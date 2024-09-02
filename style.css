@@ -5,16 +5,11 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-@media only screen and (min-width: 560px) {
-    .caixa-principal {
-        max-width: 1900px;
-        margin: 0 auto;
-        flex-flow: wrap;
-        /* display: block; */
-        flex-direction: column;
-        background-image:  url(./img/img-principal-celular.png);
-    }
-}
+
+
+
+
+
 .intro {
     display:flex
 }
@@ -47,7 +42,7 @@
 .caixa-principal {
     height: 100vh;
     width: 100%;
-    background-image: url(./img/img-principal.png);
+    /* background-image: url(./img/grande.png); */
     background-size: cover;
     background-position: center;
     background-color: #191919;
@@ -93,8 +88,15 @@ li :hover {
 
 .meu-nome {
     position: absolute;
-    top: 50%;
     left: 7%;
+}
+.foto-principal {
+    margin-left: 70%;
+}
+
+.texto-principal {
+    margin-bottom: 30%;
+    
 }
 
 h1 {
@@ -122,8 +124,9 @@ section {
 section  img {
     height: 400px;
     border-radius: 100%;
-    border: 2px solid #f9004d;
-    margin-right: 30px ;
+    border: 2px solid #ff0051;
+    margin-right: 100px ;
+    
 }
 
 section div h2 {
@@ -201,7 +204,7 @@ section div button:hover {
 }
 
 .card a {
-    background-color: #f9004d;
+    background-color: #ff0051;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
