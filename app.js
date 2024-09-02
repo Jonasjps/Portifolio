@@ -18,15 +18,7 @@ const type = () => {
   currentMessage = messages[messageIndex]
   currentCharacters = currentMessage.slice(0, characterIndex++)
   typing.innerHTML = currentCharacters
-  console.log(currentCharacters)
 
-//   const shouldChangeMessageToBeTyped =
-//     currentCharacters.length === currentMessage.length
-
-//   if( shouldChangeMessageToBeTyped ){
-//     messageIndex++
-//     characterIndex = 0
-//   }
 }
 
 setInterval(type, 200)
