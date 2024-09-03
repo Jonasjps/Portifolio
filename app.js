@@ -1,6 +1,6 @@
 const typing = document.querySelector('[data-js="typing"]')
 
-const messages = ['Jonas Pessoa']
+const messages = ['Jonas Pessoa Silva']
 
 let messageIndex = 0
 let characterIndex = 0

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jonas Pessoa</title>
+    <title>Portifolio Pessoal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,14 +12,14 @@
     <link rel="shortcut icon" href="./img/favi.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="caixa-principal" id="home">
+    <div class="caixa-principal">
         <nav>
-            <h2 class="portifolio">Portifo<span>lio</span></h2>
+            <h2 class="portifolio">Portifo<span>lio</span> Pess<span>oal</span></h2>
             <ul>
-                <li><a class="link-menu" href="#home">Home</a></li>
-                <li><a class="link-menu" href="#sobre">Sobre</a></li>
-                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
-                <li><a class="link-menu" href="#fale-comigo">Fale conosco</a></li>
+                <li ><a class="link-menu" href="#sobre-min">Sobre min</a></li>
+                <li ><a class="link-menu" href="#formação">Formação</a></li>
+                <li ><a class="link-menu" href="#portifolio">Portifolio</a></li>
+                <li ><a class="link-menu" href="#contato">Contato</a></li>
             </ul>
         </nav>
 
@@ -28,7 +28,7 @@
               
                 <div class="texto-principal">
                     <h1 data-js="typing" class="typing"></h1>
-                    <h3>Programador Front-End</h3>
+                    <h3>Desenvolvedor</h3>
                 </div>
             </div>
             <div class="foto-principal">
@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <section id="sobre">
+    <section id="sobre-min">
         <picture>
             <source media="(max-width:750px)" srcset="./img/pequeno-jonas.png">
             <img src="./img/grande-jonas.png">
@@ -55,8 +55,19 @@
         </div>
     </section>
 
-    <div class="projetos" id="projetos-id">
-        <h2>Principais Projetos</h2>
+    <div class="formacao" id="formação" >
+        <h2 class="tam">Formação e Experiencia</h2>
+
+        <ul class="ensino">
+            <li>-Ensino Medio Completo</li><br>
+            <li>-Analise e Desenvolvimento de Sistemas (Cursando)</li>
+        </ul>
+
+       
+    </div>
+
+    <div class="projetos"  id="portifolio" >
+        <h2>Portifolio</h2>
 
         <div class="card-projetos">
             <div class="card">
@@ -91,9 +102,15 @@
         
     </div>
 
-    <footer id="fale-comigo">
+    <footer id="contato">
         <h5>Jonas Pessoa</h5>
         <p>Para mais informações</p>
+        <h6>Preencha o formulario abaixo</h6>
+        <form class="formulario">
+            <input type="text" name="nome" id="nome" placeholder=" Ensira seu nome:" autofocus><br>
+            <input type="email" name="email" id="email" placeholder=" Email:"><br>
+            <input type="text" name="mensagem" id="mensagem" placeholder=" Deixe sua Mensagem:">
+        </form>
 
         <div class="social">
             <a href="https://www.linkedin.com/in/jonas-pessoa-168163225/" target="_blank">
